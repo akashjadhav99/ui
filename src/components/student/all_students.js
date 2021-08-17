@@ -52,7 +52,7 @@ const reducer = (state, action) => {
   }
 };
 
-let debounceHandler = null;
+let debounceHandler = null;  
 
 const AllStudents = (props) => {
   const [state, dispatch] = useReducer(reducer, inisialState);
