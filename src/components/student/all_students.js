@@ -33,7 +33,7 @@ const reducer = (state, action) => {
         queryString: { start: action.payload.start, end: action.payload.end },
       };
       break;
-    case "currentPage":
+    case "currentPage": 
       return {
         ...state,
         currentPage: action.payload.currentPage,
